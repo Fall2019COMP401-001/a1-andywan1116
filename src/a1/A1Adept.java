@@ -67,8 +67,8 @@ public class A1Adept {
 		double max = findmax(a);
 		int maxname = findmaxname(a,0);
 		int minname = findminname(a,0);
-		System.out.println("Biggest: "  + LASTname[maxname]+" "+FIRSTname[maxname]+ "("+String.format("%.2f",max)+")");
-		System.out.println("Smallest: "  +LASTname[minname]+" "+FIRSTname[minname] +"("+ String.format("%.2f",min)+")");
+		System.out.println("Biggest: "  + LASTname[maxname]+" "+FIRSTname[maxname]+ " ("+String.format("%.2f",max)+")");
+		System.out.println("Smallest: "  +LASTname[minname]+" "+FIRSTname[minname] +" ("+ String.format("%.2f",min)+")");
 		//System.out.println("Biggest: " + String.format("%.2f",max));
 		System.out.print("Average: "+String.format("%.2f",avg/numberOFcustomer));
 		 
