@@ -70,7 +70,7 @@ public class A1Adept {
 		System.out.println("Biggest: "  + LASTname[maxname]+" "+FIRSTname[maxname]+ " ("+String.format("%.2f",max)+")");
 		System.out.println("Smallest: "  +LASTname[minname]+" "+FIRSTname[minname] +" ("+ String.format("%.2f",min)+")");
 		//System.out.println("Biggest: " + String.format("%.2f",max));
-		System.out.print("Average: "+String.format("%.2f",avg/numberOFcustomer));
+		System.out.println("Average: "+String.format("%.2f",avg/numberOFcustomer));
 		 
 		//avg = avg /numberOFcustomer;
 		//System.out.print("Average: "+avg/numberOFcustomer);
